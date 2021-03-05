@@ -5,64 +5,32 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hot Restaurant</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" 
-    rel="style.css" 
-    integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" 
-    crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 <body>
     <div class="jumbotron">
         <h1 class="text-center">
             <span class="glyphicon glyphicon-fire">
-                ::before
             </span>
-            " Hot Restaurant"
+            Hot Restaurant
         </h1>
         <hr>
         <h2 class="text-center">We only have 5 tables! Book your seat before they are all gone!</h2>
         <br>
         <div class="text-center">
-            <a href="/tables">...</a>
-            <a href="/reserve">...</a>
+            <a href="./table.html">Tables</a>
+            <a href="./reserve.html">Reserve</a>
         </div>
     </div>
     <footer class="footer">
         <div class="container">
-            ::before
-            <p>
+            <p class="text-center">
                 <a href="api/tables">API Table Link</a>
                 <a href="api/reserve">API Wait List</a>
             </p>
-            ::after
             </footer>
-        ::after
         </div>
-    <script>
-        
-// This array will contain all of our tables as objects
-        const express = require('express');
-        const path = require('path');
-        const app = express();
-        const PORT = 3000;
-        app.use(express.urlencoded({ extended: true }));
-        app.use(express.json());
-        
-        const tables = [];
-        const waitlist = [];
-// Routes for displaying HTML pages
-        app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'index.html')));
-        app.get('/reservation-form', (req, res) => res.sendFile(path.join(__dirname, 'reservation-form.html')));
-        app.get('/reservation-view', (req, res) => res.sendFile(path.join(__dirname, 'reservation-view.html')));
-// Displays tables
-        app.get('/api/tables', (req, res) => res.json(tables));
-// Add a table (JSON format)
-        app.post('/api/tables', (req, res) => {
-        const newTable = req.body;
-        tables.push(newTable);
-        res.json(newTable);
-        });
 
-        app.listen(PORT, () => console.log(`App listening on PORT ${PORT}`));
-    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
 </body>
 </html>
