@@ -23,7 +23,7 @@ An app that helps place a reservation for a table and allows customers to view c
 
 ## License
 
-    This respository is licensed under the [!(https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license.
+    This respository is licensed under the ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license.
 
 ## Contribute
 
@@ -31,7 +31,7 @@ An app that helps place a reservation for a table and allows customers to view c
 
 ## Testing
 
-    undefined
+    N/A
 
 ## Questions
 
