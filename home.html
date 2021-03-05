@@ -38,9 +38,17 @@
         ::after
         </div>
     <script>
-        const path = require('path');
+        
 // This array will contain all of our tables as objects
+        const express = require('express');
+        const path = require('path');
+        const app = express();
+        const PORT = 3000;
+        app.use(express.urlencoded({ extended: true }));
+        app.use(express.json());
+        
         const tables = [];
+        const waitlist = [];
 // Routes for displaying HTML pages
         app.get('/', (req, res) => res.sendFile(path.join(__dirname, 'index.html')));
         app.get('/reservation-form', (req, res) => res.sendFile(path.join(__dirname, 'reservation-form.html')));
@@ -54,16 +62,6 @@
         res.json(newTable);
         });
 
-        const express = require('express');
-        const path = require('path');
-        const app = express();
-        const PORT = 3000;
-        app.use(express.urlencoded({ extended: true }));
-        app.use(express.json());
-        const waitlist = [
-        {
-        }
-        ];
         app.listen(PORT, () => console.log(`App listening on PORT ${PORT}`));
     </script>
 </body>
