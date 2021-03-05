@@ -15,25 +15,25 @@ An app that helps place a reservation for a table and allows customers to view c
 
 ## Installation
 
-    N/A
+N/A
 
 ## Usage
 
-    Free to use repository.
+Free to use repository.
 
 ## License
 
-    This respository is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license.
+This respository is licensed under the [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT) license.
 
 ## Contribute
 
-    Currently not accepting outside contributions.
+Currently not accepting outside contributions.
 
 ## Testing
 
-    N/A
+N/A
 
 ## Questions
 
-    Any comments, questions, concerns? Feel free to contact me at [mwebb2321@gmail.com](maito:mwebb2321@gmail.com).
-    My gitHub profile is, [MWebb2321](https://github.com/MWebb2321), [Billy-MK](https://github.com/Billy-MK), [Raffee1989](https://github.com/Raffee1989), [toasted-coder](https://github.com/toasted-coder)
+Any comments, questions, concerns? Feel free to contact me at [mwebb2321@gmail.com](maito:mwebb2321@gmail.com).
+Our gitHub profiles are: [MWebb2321](https://github.com/MWebb2321), [Billy-MK](https://github.com/Billy-MK), [Raffee1989](https://github.com/Raffee1989), [toasted-coder](https://github.com/toasted-coder)
